@@ -1,5 +1,9 @@
-function App() {
-  return <h1>Hello Word</h1>
+import { Widget } from "./components/Widget";
+
+const App = () => {
+  return (
+    <Widget />
+  )
 }
 
-export default App
+export { App };

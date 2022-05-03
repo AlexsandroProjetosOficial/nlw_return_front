@@ -1,10 +1,15 @@
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{jsx,tsx}",
+    "./src/**/*.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          500: '#8257e6'
+        }
+      }
+    },
   },
   plugins: [],
 }
